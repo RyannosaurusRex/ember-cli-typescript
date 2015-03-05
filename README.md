@@ -1,4 +1,4 @@
-# ember-cli-typescript [![Build Status](https://travis-ci.org/RyannosaurusRex/ember-cli-typescript.svg?branch=master)](https://travis-ci.org/RyannosaurusRex/ember-cli-typescript)
+# ember-cli-typescript
 
 This Ember-CLI plugin uses [Typescript](https://typescriptlang.org/) to allow you to use TypeScript with your
 Ember-CLI project.  The goal is to use TypeScript to transpile your typed TS code to ES2015 code, and then subsequently use
