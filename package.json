@@ -1,20 +1,20 @@
 {
-  "name": "ember-cli-babel",
-  "version": "4.1.0",
+  "name": "ember-cli-typescript",
+  "version": "0.0.1",
   "main": "index.js",
   "keywords": [
     "ember-addon"
   ],
-  "author": "Gordon Kristan",
+  "author": "Ryan Hayes",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/babel/ember-cli-babel.git"
+    "url": "git://github.com/RyannosaurusRex/ember-cli-typescript.git"
   },
   "bugs": {
-    "url": "https://github.com/babel/ember-cli-babel/issues"
+    "url": "https://github.com/RyannosaurusRex/ember-cli-typescript/issues"
   },
-  "homepage": "https://github.com/babel/ember-cli-babel",
+  "homepage": "https://github.com/RyannosaurusRex/ember-cli-typescript",
   "dependencies": {
     "broccoli-babel-transpiler": "^4.0.0",
     "broccoli-filter": "^0.1.10",
