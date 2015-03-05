@@ -8,13 +8,13 @@ module.exports = {
   },
 
   setupPreprocessorRegistry: function(type, registry) {
-    var options = getOptions(this.parent && this.parent.options && this.parent.options['babel']);
+    var options = getOptions((this.parent && this.parent.options) || {});
 
     var plugin = {
       name: 'ember-cli-typescript',
       ext: 'ts',
       toTree: function(tree) {
-        return require('broccoli-babel-transpiler')(tree, options);
+        return require('broccoli-typescript')(tree, options);
       }
     };
 
